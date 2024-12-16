@@ -1,12 +1,12 @@
-/*Write a program in C to find the square and cube of any number using
- * thefunction.*/
+/*Write a program in C to find the square and cube of any number using the function.*/
 #include <stdio.h>
 
 // initializing functions
 int sqrtt(int x);
 int cube(int y);
 
-int main() {
+int main()
+{
   int num = 0;
   printf("Enter a number: ");
   scanf("%d", &num);
@@ -14,13 +14,15 @@ int main() {
   return 0;
 }
 
-int sqrtt(int x) {
+int sqrtt(int x)
+{
   int sqrts = 0;
   sqrts = x * x;
   return sqrts;
 }
 
-int cube(int y) {
+int cube(int y)
+{
   int cubes = 0;
   cubes = y * y * y;
   return cubes;
